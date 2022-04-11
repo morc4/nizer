@@ -222,8 +222,7 @@ def main():
             print('An error occurred: %s' % error)
 
     #read student log
-    
-     #los correos vienen revueltos, toca buscar la forma con un for loop de que me los de separados por estudiante. -> por cada estudiante actualizar meta data, correr funcion de leer correos, actualizar log de estudiante, sincronizar archivos adjuntos.
+     # the mails come mixed, it is necesary to find a way separe them per student with a for loop. -> for each student update meta data, run function of read mail, update student log, sincronize attachements.
     
     currentYear = datetime.now().year
     
