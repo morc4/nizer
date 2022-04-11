@@ -1,4 +1,4 @@
-#Meta actual: modificar linea 31 "flow = InstalledAppFlow.from_client_secrets_file('client_id.json', SCOPES)" para que funcione con web en vez de installed.
+# Current objective: modify line 31 "flow = InstalledAppFlow.from_client_secrets_file('client_id.json', SCOPES)" so that it works with web instead of installed stuff.
 
 from __future__ import print_function
 import pickle
@@ -71,7 +71,7 @@ def main():
     
 
 
-# leer el archivo y crear las listas en el programa
+# read the file and create the lists in the program
 
 
     
